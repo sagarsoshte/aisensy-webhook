@@ -19,7 +19,7 @@ def call_completed():
         "destination": phone_number,                # ✅ E.g., +919876543210
         "userName": "Customer",                     # ✅ Required
         "source": "Telecalling",                    # Optional
-        "templateParams": ["S"],             # Optional
+        "templateParams": [],             # Optional
         "tags": ["call-followup"]                   # Optional
     }
 
