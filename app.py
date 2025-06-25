@@ -11,7 +11,7 @@ def call_completed():
     if not phone_number:
         return jsonify({"error": "Phone number missing"}), 400
 
-    aisensy_url = "https://backend.aisensy.com/campaign/t1/api/v2/send"
+    aisensy_url = "https://backend.aisensy.com/campaign/t1/api/v2"
     payload = {
         "campaign_name": "example",  # Update this to your AiSensy campaign
         "destination": phone_number,
