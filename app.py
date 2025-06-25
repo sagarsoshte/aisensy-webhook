@@ -15,7 +15,7 @@ def call_completed():
     
     payload = {
         "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTg0Njc0NGM2ODkzMDljMjIxMjBiOSIsIm5hbWUiOiJQYXdhbiBBZ3JvIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY1MWY5MDdhOGI4MGJmMGJlMTdhOTRkYSIsImFjdGl2ZVBsYW4iOiJOT05FIiwiaWF0IjoxNzAwMjg0MDIwfQ.CAvpxNTLITpfzhUULS1-_dKKgQ_lNoRVYiJaJspdBZI",         # ✅ Required in payload
-        "campaignName": "example",           # ✅ Must match your AiSensy live campaign
+        "campaignName": "thank-you",           # ✅ Must match your AiSensy live campaign
         "destination": phone_number,                # ✅ E.g., +919876543210
         "userName": "Customer",                     # ✅ Required
         "source": "Telecalling",                    # Optional
